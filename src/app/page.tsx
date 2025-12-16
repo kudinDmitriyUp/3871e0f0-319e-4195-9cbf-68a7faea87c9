@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -36,7 +36,6 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/uploaded-1765894567240-2phmi7o5.jpg"
-          logoAlt="Marketing Business Logo"
           brandName="MarketHub"
           bottomLeftText="Strategy Driven"
           bottomRightText="hello@markethub.com"
@@ -204,7 +203,7 @@ export default function LandingPage() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/uploaded-1765894582310-j92bp8it.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/uploaded-1765894583116-jjpsolam.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SzEkxKoNyIbQ4hnQYui6BHsfB/uploaded-1765894583852-iip2hml0.jpg"
-          ]
+          ]}
           speed={40}
           showCard={true}
         />
